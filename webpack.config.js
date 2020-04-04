@@ -2,6 +2,7 @@ const path = require('path');
 process.env.NODE_ENV = 'production';
 
 module.exports = {
+    name: 'tictactoe-dev',
     mode: 'development', // 실서비스: production
     devtool: 'eval', // 실서비스: hidden-source-map
     resolve: {
